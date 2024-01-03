@@ -32,7 +32,7 @@ function Profile ({username, tag, location, avatar, stats}) {
 )
     }
 
-export default Profile;
+export default Profile
 
 Profile.propTypes = {
     username:propTypes.string.isRequired,
